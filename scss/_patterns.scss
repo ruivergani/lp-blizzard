@@ -1,13 +1,15 @@
 .btn{
+    display: inline-flex;
     padding: 0px 1.6rem;
     line-height: 4.6rem;
-    display: inline-block;
     border-radius: 0.4rem;
     color: #fff;
     text-align: center;
     font-size: 1.4rem;
     border: 1px solid transparent;
     transition: color .3s, background-color .3s;
+    align-items: center;
+    gap: 0.8rem;
     &-primary{
         background-color: $primary-default;
         border-color: $primary-default;
