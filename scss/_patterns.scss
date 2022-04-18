@@ -25,3 +25,39 @@
         }
     }
 }
+.game-card{
+    display: block;
+    width: 100%;
+    max-width: 28rem;
+    .image{
+        // create mask for any size image
+        overflow: hidden; // keep to the size (cut outside space)
+        border-radius: 0.45rem;
+        height: 38.4rem;
+        width: 100%;
+        margin-bottom: 2.4rem;
+        img{
+            transition: transform .3s ease-in; // ease in (comeca devagar e termina rapido)
+        }
+        &:hover{
+            img{
+                transform: scale(1.05);
+            }
+        }
+    }
+    .info{
+        h3{
+            font-weight: 600;
+            font-size: 1.935rem;
+            line-height: 29px;
+            color: #E5E5E5;
+        }
+        span{
+            font-weight: 400;
+            font-size: 1.505rem;
+            line-height: 2.3rem;
+            color: rgb(229, 229, 229, 0.8);
+        }
+    }
+    
+}
