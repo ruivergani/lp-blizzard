@@ -1,0 +1,20 @@
+{
+  "name": "codeboost-gulp",
+  "version": "1.0.0",
+  "description": "Project created for codeboost",
+  "main": "index.js",
+  "author": "Rui Vergani Neto",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "browser-sync": "^2.27.9",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.50.0"
+  }
+}
