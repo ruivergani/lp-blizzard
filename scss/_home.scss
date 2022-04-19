@@ -135,7 +135,7 @@
                 cursor: pointer;
                 opacity: 0.4;
                 filter: grayscale(100%); // deixar preto e branco
-                &-active{ // classe padrao do swiper slide active
+                &-thumb-active{ // classe padrao do swiper slide active
                     opacity: 1;
                     filter: grayscale(0%);
                 }
