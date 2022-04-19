@@ -1,3 +1,0 @@
-{
-    const number = 32;
-}
