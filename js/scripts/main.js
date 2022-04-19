@@ -8,7 +8,11 @@ var slide_thumbnail = new Swiper(".slide-thumbnail", {
 
 var slide_hero = new Swiper(".slide-principal", {
     effect: 'fade', // efeito de fade
-    thumbs: {
+    thumbs: { // link the thumnail with slide
         swiper: slide_thumbnail,
+    },
+    autoplay: { // autoplay for the slide
+      delay: 5000,
+      disableOnInteraction: false // autoplay nao para de funcionar
     }
   });
