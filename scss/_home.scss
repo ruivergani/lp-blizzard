@@ -220,6 +220,7 @@
                 display: grid; // an idea of flexbox
                 grid-template-columns: repeat(4, 1fr); // fraction of the area - one collum adapt to the screen size (fr exclusive of grid)
                 grid-gap: 47px 32px; // top bottom and to sides
+                animation: fadeUp .4s forwards;
             }
             .card-all-games{
                 width: 100%;
@@ -242,5 +243,16 @@
                 }
             }
         }
+    }
+}
+
+@keyframes fadeUp{
+    from{
+        opacity: 0;
+        transform: translateY(20px); // move up
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
     }
 }
