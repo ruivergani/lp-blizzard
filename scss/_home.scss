@@ -205,6 +205,27 @@
             &.active{
                 display: grid; // an idea of flexbox
                 grid-template-columns: repeat(4, 1fr); // fraction of the area - one collum adapt to the screen size (fr exclusive of grid)
+                grid-gap: 47px 32px; // top bottom and to sides
+            }
+            .card-all-games{
+                width: 100%;
+                max-width: 28rem;
+                height: 38.4rem;
+                border: 1.5px solid #212428;
+                border-radius: 4px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                span{
+                    display: flex;
+                    align-items: center;
+                    margin-top: 34px;
+                    gap: 14px;
+                    font-size: 16px;
+                    line-height: 24px;
+                    /* identical to box height */
+                }
             }
         }
     }
