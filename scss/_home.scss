@@ -245,6 +245,74 @@
         }
     }
 }
+.s-download{
+    width: 100%;
+    height: 85rem;
+    background: url("../assets/bg-section-download.png") no-repeat center center;
+    overflow: hidden; // avoid lateral scroll
+    background-size: cover; // cover whole section
+    .text-left{
+        width: 100%;
+        max-width: 29.9rem;
+        padding-top: 132px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 30px;
+        h2{
+            width: 100%;
+            max-width: 31.2rem;
+            font-weight: 700;
+            font-size: 3.2rem;
+            line-height: 110.2%;
+        }
+        ul{
+            li{
+                display: flex;
+                gap: 1.6rem;
+                margin-top: 2.4rem;
+                font-weight: 400;
+                font-size: 1.8rem;
+                line-height: 178.2%;
+                color: #828792;
+                .icon{
+                    width: 1.8rem;
+                    height: 1.8rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+        .btn{
+            margin-top: 4.2rem;
+            padding: 0px 4rem;
+            line-height: 5.2rem;
+            font-size: 1.6rem;
+            font-weight: 600;
+        }
+        .app{
+            margin-top: 4.9rem;
+            display: flex;
+            gap: 1.6rem;
+            width: 100%;
+            max-width: 19rem;
+            p{
+                font-weight: 600;
+                font-size: 1.4rem;
+                line-height: 2.1rem;
+                color: #E5E5E5;
+                a{
+                    text-decoration: underline;
+                    transition: color .3s;
+                    &:hover{
+                        color: $primary-light;
+                    }
+                }
+            }
+        }
+    }
+}
 
 @keyframes fadeUp{
     from{
