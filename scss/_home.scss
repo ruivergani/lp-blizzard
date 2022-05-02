@@ -251,6 +251,9 @@
     background: url("../assets/bg-section-download.png") no-repeat center center;
     overflow: hidden; // avoid lateral scroll
     background-size: cover; // cover whole section
+    .container{
+        position: relative; // because of the images
+    }
     .text-left{
         width: 100%;
         max-width: 29.9rem;
@@ -310,6 +313,25 @@
                     }
                 }
             }
+        }
+    }
+    .image{
+        position: absolute;
+        top: 9.9rem;
+        right: -27.5rem;
+        width: 100%;
+        max-width: 106.6rem;
+        height: 61rem;
+        .img-lg{
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .img-sm{
+            position: absolute;
+            z-index: 1000;
+            bottom: -4.2rem;
+            right: 5.3rem;
         }
     }
 }
