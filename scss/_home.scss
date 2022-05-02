@@ -315,7 +315,7 @@
             }
         }
     }
-    .image{
+    .image{ // div (dad)
         position: absolute;
         top: 9.9rem;
         right: -27.5rem;
@@ -326,12 +326,14 @@
             position: absolute;
             top: 0;
             right: 0;
+            animation: float 8s ease-in-out infinite;
         }
         .img-sm{
             position: absolute;
             z-index: 1000;
             bottom: -4.2rem;
             right: 5.3rem;
+            animation: float 6s ease-in-out infinite;
         }
     }
 }
