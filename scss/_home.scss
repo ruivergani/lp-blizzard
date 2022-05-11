@@ -405,6 +405,7 @@
             }
         }
         .others-connect{
+            margin-bottom: 3.5rem;
             p{
                 font-size: 1.4rem;
                 line-height: 2.1rem;
@@ -423,12 +424,40 @@
                         height: 4.8rem;
                         background-color: #FFFFFF;
                         border-radius: 4px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
                     }
                 }
 
             }
         }
-        
+        .message-user{
+            p{
+                text-align: center;
+                font-weight: 500;
+                font-size: 1.6rem;
+                line-height: 2.4rem;
+                color: #FFFFFF;
+                margin-bottom: 1.6rem;
+                a{
+                    display: inline-block;
+                }
+            }
+            a{
+                font-weight: 500;
+                font-size: 1.6rem;
+                line-height: 2.4rem;
+                text-decoration-line: underline;
+                color: #00AEFF;
+                text-align: center;
+                display: block;
+                transition: color .3s;
+                &:hover{
+                    color: #FFFFFF;
+                }
+            }
+        }
         
     }
 
