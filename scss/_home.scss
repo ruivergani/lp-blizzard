@@ -372,6 +372,12 @@
             margin-bottom: 40px;
             width: 176px; // can only perform this in SVG
         }
+        .close{
+            position: absolute;
+            top: 24px;
+            right: 2.4rem;
+
+        }
         form{
             width: 100%;
             max-width: 42.6rem;
@@ -460,7 +466,6 @@
         }
         
     }
-
 }
 @keyframes fadeUp{
     from{
