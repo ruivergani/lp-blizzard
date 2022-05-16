@@ -44,6 +44,14 @@ header{
                             text-align: center;
                             img{
                                 margin-left: 1.4rem;
+                                transition: transform .3s;
+
+                            }
+                            &.active{
+                                color: #00AEFF;
+                                img{
+                                    transform: rotate(180deg); // rotate the arrow 180 degrees
+                                }
                             }
                         }
                     }

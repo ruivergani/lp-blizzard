@@ -71,6 +71,9 @@ btnMenu.forEach((btn, index) => {
       // if the user leave mouse from the menu section => close the event
       itemMenu.addEventListener('mouseleave', () => {
         itemMenu.classList.remove('active');
+        btnMenu.forEach(itemBtn => {
+          itemBtn.classList.remove('active');
+        })
       })
     })
     // remove the class active from all
