@@ -68,6 +68,10 @@ header{
     backdrop-filter: blur(12px);
     width: 100%;
     padding-top: 8.6rem; // height of current menu
+    display: none;
+    &.active{
+        display: block;
+    }
     .area-menu{
         padding-top: 3.8rem;
         padding-bottom: 5.5rem;
@@ -108,5 +112,34 @@ header{
 
         }
     }
-    .footer
+    .footer-menu{
+        background-color: rgba(21, 23, 27,0.7);
+        display: flex;
+        width: 100%;
+        height: 6rem;
+        align-items: center;
+        justify-content: center;
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            li{
+                &:not(:first-child){
+                    margin-left: 6.4rem;
+                }
+                a{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    span{
+                        font-size: 16px;
+                        line-height: 24px;
+                        text-align: center;
+                        color: #FFFFFF;
+                        margin-left: 1rem;
+                    }
+                }
+            }
+        }
+    }
 }
