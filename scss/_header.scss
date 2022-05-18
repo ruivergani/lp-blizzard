@@ -64,6 +64,24 @@ header{
             gap: 1.6rem;
         }
     }
+    .btn-mobile{
+        display: none;
+    }
+    @media (max-width: 991px){
+        .left-container{
+            nav{
+                display: none;
+            }
+
+        }
+        .right-container{
+            .btn-mobile{
+                display: block;
+                margin-left: 8.9rem;
+            }
+        }
+        
+    }
 }
 // style for dropdown menu
 .menu{
@@ -172,3 +190,4 @@ header{
         }
     }
 }
+
