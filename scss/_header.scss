@@ -82,6 +82,13 @@ header{
         }
         
     }
+    @media (max-width: 560px){
+        .right-container{
+            .btn{
+                display: none;
+            }
+        }
+    }
 }
 // style for dropdown menu
 .menu{
@@ -188,6 +195,9 @@ header{
                 }
             }
         }
+    }
+    @media (max-width: 560px){
+       display: none;  
     }
 }
 
