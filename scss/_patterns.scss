@@ -59,5 +59,14 @@
             color: rgb(229, 229, 229, 0.8);
         }
     }
-    
+    @media (max-width: 1200px){
+        .image{
+            height: 34.3rem;
+        }
+    }
+    @media (max-width: 991px){
+        .image{
+            height: 30.3rem;
+        }
+    }
 }

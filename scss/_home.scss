@@ -321,6 +321,22 @@
             }
         }
     }
+    @media (max-width: 991px){
+        .tab-games-content{
+            .tab-pane-games{
+                &.active{
+                    grid-template-columns: repeat(3, 1fr);
+                }
+            }
+        }
+        .top{
+            .left{
+                span{
+                    display: none;
+                }
+            }
+        }
+    }
 }
 .s-download{
     display: none;
