@@ -385,7 +385,6 @@
     }
 }
 .s-download{
-    display: none;
     width: 100%;
     height: 85rem;
     background: url("../assets/bg-section-download.png") no-repeat center center;
@@ -474,6 +473,26 @@
             bottom: -4.2rem;
             right: 5.3rem;
             animation: float 6s ease-in-out infinite;
+        }
+    }
+    @media (max-width: 991px){
+        .image{
+            right: -38rem;
+        }
+        .text-left{
+            max-width: 29.9rem;
+            gap: 15px;
+            h2{
+                font-size: 3.2rem;
+                margin-bottom: 3rem;
+            }
+            ul{
+                li{
+                    p{
+                        font-size: 1.8rem;
+                    }
+                }
+            }
         }
     }
 }
