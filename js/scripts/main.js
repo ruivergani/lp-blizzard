@@ -7,7 +7,11 @@ var slide_thumbnail = new Swiper(".slide-thumbnail", {
     breakpoints: { // for responsive
       320: {
         direction: 'horizontal'
+      },
+      1150: {
+        direction: 'vertical'
       }
+
     }
   });
 
