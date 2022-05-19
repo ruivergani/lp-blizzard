@@ -191,6 +191,15 @@
             .swiper-wrapper{
                 .swiper-slide{
                     padding-top: 131px;
+                    &.slide-01{
+                        background-position-x: 35%; // change position of background hero
+                    }
+                    &.slide-02{
+                        background-position-x: 60%;
+                    }
+                    &.slide-03{
+                        background-position-x: 60%;
+                    }
                     .container{
                         .right-content{
                             display: none;
