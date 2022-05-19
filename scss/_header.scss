@@ -83,11 +83,17 @@ header{
         
     }
     @media (max-width: 560px){
+        height: 8rem;
         .right-container{
             .btn{
                 display: none;
             }
         }
+        .left-container{
+            .logo{
+                max-width: 6.9rem;
+            }
+        } 
     }
 }
 // style for dropdown menu
