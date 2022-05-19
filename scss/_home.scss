@@ -337,6 +337,52 @@
             }
         }
     }
+    @media (max-width: 560px){
+        padding-top: 57px;
+        padding-bottom: 57px;
+        .tab-games-content{
+            .tab-pane-games{
+                &.active{
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-gap: 2.4rem 1.6rem;
+                }
+                .card-all-games{
+                    height: 21.2rem;
+                    img{
+                        max-width: 6.9rem;
+                        
+                    }
+                    span{
+                        margin-top: 15px;
+                        font-size: 14px;
+                        img{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+        .top{
+            margin-bottom: 5.7rem;
+            
+            .left{
+                h2{
+                    font-size: 2.8rem;
+                }
+            }
+            .right{
+                justify-content: flex-end;
+                ul{
+                    display: none;
+                }
+                .btn-all-games{
+                    font-size: 1.4rem;
+                }
+            }
+            
+        }
+        
+    }
 }
 .s-download{
     display: none;
