@@ -23,6 +23,17 @@ var slide_hero = new Swiper(".slide-principal", {
     autoplay: { // autoplay for the slide
       delay: 5000,
       disableOnInteraction: false // autoplay nao para de funcionar
+    },
+    on: { // get some elements from swiper slide
+      init : function () { // when slide starts
+        
+      }, 
+      slideChangeTransitionStart : function (){
+
+      }, 
+      slideChangeTransitionEnd : function (){
+
+      }
     }
   });
 
@@ -95,3 +106,5 @@ btnMenu.forEach((btn, index) => {
     MenuDropdown[index].classList.add('active');
   })
 })
+
+// this is the progress bar
