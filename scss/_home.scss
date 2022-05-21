@@ -150,15 +150,16 @@
         position: absolute;
         left: 0;
         bottom: 0;
+        height: 2px;
         width: 100%;
         display: block;
-        z-index: 3;
+        z-index: 2;
         .slide-progress-bar{ // line itself in the pattern state 
             position: absolute;
             bottom: 0;
             left: 0;
+            right: 0;
             height: 3px;
-            display: block;
             width: auto;
             opacity: 0;
             &:after{
@@ -166,6 +167,7 @@
                 position: absolute;
                 top: 0;
                 left: 0;
+                display: block;
                 background-color: $primary-default;
                 height: 100%;
                 width: 0; // because it will be controlled by javscript

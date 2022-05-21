@@ -15,6 +15,8 @@ var slide_thumbnail = new Swiper(".slide-thumbnail", {
     }
   });
 
+const progressSlide = document.querySelector('.js-progress'); // get progress bar
+
 var slide_hero = new Swiper(".slide-principal", {
     effect: 'fade', // efeito de fade
     thumbs: { // link the thumnail with slide
@@ -26,13 +28,18 @@ var slide_hero = new Swiper(".slide-principal", {
     },
     on: { // get some elements from swiper slide
       init : function () { // when slide starts
-        
+        progressSlide.classList.remove('animate');
+        progressSlide.classList.remove('active');
+        progressSlide.classList.add('animate'); // faz a barra crescer
+        progressSlide.classList.add('active'); // da opacidade
       }, 
-      slideChangeTransitionStart : function (){
-
+      slideChangeTransitionStart : function (){ // when the transition start
+        progressSlide.classList.remove('animate');
+        progressSlide.classList.remove('active');
+        progressSlide.classList.add('active');
       }, 
-      slideChangeTransitionEnd : function (){
-
+      slideChangeTransitionEnd : function (){ // when the transiction finish
+        progressSlide.classList.add('animate'); // um apos o outro - nao pode adicionar junto
       }
     }
   });
