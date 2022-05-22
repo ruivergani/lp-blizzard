@@ -1,6 +1,6 @@
 # Landing Page Blizzard - Using GULP
  
-Link: 
+Link: https://ruivergani.github.io/lp-blizzard/
 
 Website developed during the CodeBoost course. Assisted by William Moreira I have developed this landing page based on blizzard website.
 
