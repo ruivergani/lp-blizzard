@@ -48,7 +48,6 @@ var slide_hero = new Swiper(".slide-principal", {
 const allFilters = document.querySelectorAll('.js-nav-games li a'); // get the item of list
 const tabPane = document.querySelectorAll('.tab-pane-games');
 
-
 // get the click of the nav for the tabs
 allFilters.forEach((filter, index)=>
   filter.addEventListener('click', (Event) =>{
@@ -91,7 +90,6 @@ const MenuDropdown = document.querySelectorAll('.js-menu');
 btnMenu.forEach((btn, index) => {
   btn.addEventListener('click', (event) => {
     event.preventDefault(); // negar o comportamento da tag A
-
     // remove from all the active
     MenuDropdown.forEach(itemMenu => {
       itemMenu.classList.remove('active');
@@ -114,4 +112,3 @@ btnMenu.forEach((btn, index) => {
   })
 })
 
-// this is the progress bar

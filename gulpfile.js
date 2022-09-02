@@ -28,7 +28,7 @@ function pluginsCSS(){
 }
 gulp.task('plugincss', pluginsCSS);
 
-// Concat Function
+// Concat all JS 
 function gulpJS(){
     return gulp.src('js/scripts/*.js')
     .pipe(concat('all.js')) // put all files in the scripts folder to one single file
@@ -41,7 +41,7 @@ function gulpJS(){
 }
 gulp.task('allJS', gulpJS);
 
-// Concat Function
+// Concat all plugins JS
 function pluginsJS(){
     return gulp
     .src(['./js/lib/aos.min.js', './js/lib/swiper.min.js']) // name of files
